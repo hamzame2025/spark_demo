@@ -1,0 +1,31 @@
+---
+DataPipeline
+---
+
+###Introduction
+
+This job aims to do a demo of data pipeline to persist data from csv files . We replace null salary with the average salary.
+
+###Installation
+
+The code has been tested with spark3 hadoop 2.7 Python 3.9.2. Please install this Python version.
+All required packages are listed in the _requirements.txt_ file.
+To install them, the following command can be typed.
+```
+delete transformed_retailstore before running code
+
+```
+
+###Execution
+
+To execute the job it is sufficient to launch the _data_pipeline.py_ script in the following way.
+```
+python3 data_pipeline.py
+```
+
+###Tests
+
+In order run all unit tests written for the code, the following command can be typed.
+```
+python3 -m unittest discover
+```
